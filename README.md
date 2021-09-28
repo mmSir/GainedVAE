@@ -9,6 +9,7 @@ More details can be found in the following paper:
 >[Asymmetric Gained Deep Image Compression With Continuous Rate Adaptation.](https://openaccess.thecvf.com/content/CVPR2021/html/Cui_Asymmetric_Gained_Deep_Image_Compression_With_Continuous_Rate_Adaptation_CVPR_2021_paper.html)  
 >Huawei Technologies, CVPR 2021  
 >Ze Cui, Jing Wang, Shangyin Gao, Tiansheng Guo, Yihui Feng, Bo Bai
+
 Todo:
 Reproduce Implementation of following paper:
 >[INTERPOLATION VARIABLE RATE IMAGE COMPRESSION](https://arxiv.org/abs/2109.09280)  
