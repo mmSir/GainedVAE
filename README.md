@@ -1,6 +1,6 @@
 # GainedVAE
 
-A Pytorch Implementation of a continuously rate adjustable learned image compression framework, Gained Variational Autoencoder(GainedVAE).
+A Pytorch Implementation of a continuously rate adjustable learned image compression framework, Gained Variational Autoencoder(GainedVAE). 
 
 *Note that It Is Not An Official Implementation Code.*
 
@@ -15,6 +15,7 @@ Reproduce Implementation of following paper:
 >[INTERPOLATION VARIABLE RATE IMAGE COMPRESSION](https://arxiv.org/abs/2109.09280)  
 >Alibaba Group, arxiv 2021.9.20  
 >Zhenhong Sun, Zhiyu Tan, Xiuyu Sun, Fangyi Zhang, Yichen Qian, Dongyang Li, Hao Li
+
 # Environment
 
 * Python == 3.7.10
@@ -28,7 +29,11 @@ Maybe train08 (14w images) is enough.
 
 # Train Your Own Model
 >python3 trainGain.py -d /path/to/your/image/dataset/ --epochs 200 -lr 1e-4 --batch-size 16 --model-save /path/to/your/model/save/dir --cuda
+
 # Result
+I try to train the Gained Mean-Scale Hyperprior model and here is the result.  
+
+![results](https://github.com/mmSir/GainedVAE/blob/master/results/result.png)
 
 # Acknowledgement
 
