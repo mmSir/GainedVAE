@@ -11,7 +11,7 @@ More details can be found in the following paper:
 >Ze Cui, Jing Wang, Shangyin Gao, Tiansheng Guo, Yihui Feng, Bo Bai
 
 Todo:
-Reproduce Implementation of following paper:
+Reproduce Implementation of the following paper:
 >[INTERPOLATION VARIABLE RATE IMAGE COMPRESSION](https://arxiv.org/abs/2109.09280)  
 >Alibaba Group, arxiv 2021.9.20  
 >Zhenhong Sun, Zhiyu Tan, Xiuyu Sun, Fangyi Zhang, Yichen Qian, Dongyang Li, Hao Li
@@ -23,8 +23,12 @@ Reproduce Implementation of following paper:
 * CompressAI
 
 # Dataset
-I use a part of the OpenImages Dataset to train the models (train06, train07, train08, about 54w images). You can download from here[Download OpenImages](https://www.appen.com.cn/datasets/open-images-annotated-with-bounding-boxes/).
+#### Training set
+I use a part of the OpenImages Dataset to train the models (train06, train07, train08, about 54w images). You can download from here. [Download OpenImages](https://www.appen.com.cn/datasets/open-images-annotated-with-bounding-boxes/)
 Maybe train08 (14w images) is enough.
+
+#### Test set
+[Download Kodak dataset](http://r0k.us/graphics/kodak/)
 
 
 # Train Your Own Model
@@ -39,6 +43,20 @@ I try to train the Gained Mean-Scale Hyperprior model and here is the result.
 
 The framework is based on CompressAI, I add the model in compressai.models.gain, compressai.models.gain_utils.  
 And trainGain/trainGain.py is modified with reference to compressai_examples/train.py.
+
+# More Variable Rate Image Compression Repository
+["Variable-Rate Deep Image Compression through Spatially-Adaptive Feature Transform"](https://arxiv.org/abs/2108.09551) (ICCV 2021).  
+[code](https://github.com/micmic123/QmapCompression)
+
+["Variable Bitrate Image Compression with Quality Scaling Factors"](https://ieeexplore.ieee.org/abstract/document/9053885/) (ICASSP 2020).  
+[code](https://github.com/tongxyh/ImageCompression_VariableRate)
+
+["Variable Rate Deep Image Compression with Modulated Autoencoders"](https://ieeexplore.ieee.org/document/8977394) (IEEE SPL 2020)  
+[code](https://github.com/FireFYF/modulatedautoencoder)
+
+["Slimmable Compressive Autoencoders for Practical Neural Image Compression"](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Slimmable_Compressive_Autoencoders_for_Practical_Neural_Image_Compression_CVPR_2021_paper.html) (CVPR 2021)  
+[code](https://github.com/FireFYF/SlimCAE)
+
 
 # Contact
 Feel free to contact me if there is any question about the code or to discuss any problems with image and video compression. (mxh_wine@qq.com)
