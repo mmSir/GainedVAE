@@ -44,7 +44,7 @@ I try to train the Gained Mean-Scale Hyperprior model and here is the result.
 The framework is based on CompressAI, I add the model in compressai.models.gain, compressai.models.gain_utils.  
 And trainGain/trainGain.py is modified with reference to compressai_examples/train.py.
 
-# More Variable Rate Image Compression Repository
+# More Variable Rate Image Compression Repositories
 ["Variable-Rate Deep Image Compression through Spatially-Adaptive Feature Transform"](https://arxiv.org/abs/2108.09551) (ICCV 2021).  
 [code](https://github.com/micmic123/QmapCompression)
 
