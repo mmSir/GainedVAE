@@ -2,7 +2,7 @@
 
 A Pytorch Implementation of a continuously rate adjustable learned image compression framework, Gained Variational Autoencoder(GainedVAE). 
 
-*Note that It Is Not An Official Implementation Code.*
+*Note that This Is Not An Official Implementation Code.*
 
 More details can be found in the following paper:
 
