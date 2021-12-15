@@ -39,7 +39,7 @@ class AverageMeter:
         self.avg = self.sum / self.count
 
 
-def save_checkpoint(state, filename="D:/MXH/StartDeepLearning/Compression/CompressAI/trainmeanscale/"):
+def save_checkpoint(state, filename="D:/"):
     torch.save(state, filename, _use_new_zipfile_serialization=False)
 
 
