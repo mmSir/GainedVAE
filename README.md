@@ -30,6 +30,21 @@ Maybe train08 (14w images) is enough.
 #### Test set
 [Download Kodak dataset](http://r0k.us/graphics/kodak/)
 
+The dataset fold structure is as follows:
+```
+.dataset/
+│  
+├─test
+│      kodim01.png
+│      kodim02.png
+│      kodim03.png
+...
+├─train
+│      000002b66c9c498e.jpg
+│      000002b97e5471a0.jpg
+│      000002c707c9895e.jpg
+...
+```
 
 # Train Your Own Model
 >python3 trainGain.py -d /path/to/your/image/dataset/ --epochs 200 -lr 1e-4 --batch-size 16 --model-save /path/to/your/model/save/dir --cuda
