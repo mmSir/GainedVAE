@@ -50,9 +50,11 @@ The dataset fold structure is as follows:
 >python3 trainGain.py -d /path/to/your/image/dataset/ --epochs 200 -lr 1e-4 --batch-size 16 --model-save /path/to/your/model/save/dir --cuda
 
 # Result
-I try to train the Gained Mean-Scale Hyperprior model and here is the result.  
+I try to train the Gained Mean-Scale Hyperprior model/Gained Scale Hyperprior model and here is the result.  
+I retrained the single rate baseline but can not achieve the official performance. Results from Google tensorflow/compression library is very strong probably because of their large and diverse training data set and long training time. 
 
-![results](https://github.com/mmSir/GainedVAE/blob/master/results/result.png)
+![results1](https://github.com/mmSir/GainedVAE/blob/master/results/MSHyperprior Results.jpg)
+![results2](https://github.com/mmSir/GainedVAE/blob/master/results/ScaleHyperprior Results.jpg.jpg)
 
 # Acknowledgement
 
