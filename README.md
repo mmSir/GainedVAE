@@ -53,9 +53,12 @@ The dataset fold structure is as follows:
 I try to train the Gained Mean-Scale Hyperprior model/Gained Scale Hyperprior model. See details in ./results
 I retrained the single rate baseline but can not achieve the official performance. Results from Google tensorflow/compression library is very strong probably because of their large and diverse training data set and long training time. 
 
-![results1](https://github.com/mmSir/GainedVAE/tree/master/results/MSHyperprior%20Results.jpg)
+![results1](https://github.com/mmSir/GainedVAE/blob/master/results/mshyper.png)
 
-![results2](https://github.com/mmSir/GainedVAE/tree/master/results/ScaleHyperprior%20Results.jpg)
+![results2](https://github.com/mmSir/GainedVAE/blob/master/results/scalehyper.png)
+
+# Pretrained Model
+You can download the checkpoint trained by me from [Pretrained Model](https://drive.google.com/file/d/1EqemQB54rz4GZ1vtwCu98LnRZn8gSHhJ/view?usp=sharing).
 
 # Acknowledgement
 
