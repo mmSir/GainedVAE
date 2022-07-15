@@ -1,6 +1,6 @@
 # GainedVAE
 
-A Pytorch Implementation of a continuously rate adjustable learned image compression framework, Gained Variational Autoencoder(GainedVAE). 
+A Pytorch Implementation of the continuously rate adjustable learned image compression framework, Gained Variational Autoencoder(GainedVAE). 
 
 *Note that This Is Not An Official Implementation Code.*
 
@@ -13,7 +13,7 @@ More details can be found in the following paper:
 Todo:
 Reproduce Implementation of the following paper:
 >[INTERPOLATION VARIABLE RATE IMAGE COMPRESSION](https://arxiv.org/abs/2109.09280)  
->Alibaba Group, arxiv 2021.9.20  
+>Alibaba Group, ACM Multimedia 2021
 >Zhenhong Sun, Zhiyu Tan, Xiuyu Sun, Fangyi Zhang, Yichen Qian, Dongyang Li, Hao Li
 
 # Environment
