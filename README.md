@@ -56,26 +56,18 @@ The framework is based on CompressAI, I add the model in compressai.models.gain,
 And trainGain/trainGain.py is modified with reference to compressai_examples/train.py.
 
 # More Variable Rate Image Compression Repositories
-<div id="refer-anchor-1"></div>
-[1] ["Variable-Rate Deep Image Compression through Spatially-Adaptive Feature Transform"](https://arxiv.org/abs/2108.09551) (ICCV 2021).  
-[code](https://github.com/micmic123/QmapCompression)
+[1] ["Variable-Rate Deep Image Compression through Spatially-Adaptive Feature Transform"](https://arxiv.org/abs/2108.09551) (ICCV 2021).  [code](https://github.com/micmic123/QmapCompression)
 
-<div id="refer-anchor-2"></div>
-[2] ["Variable Bitrate Image Compression with Quality Scaling Factors"](https://ieeexplore.ieee.org/abstract/document/9053885/) (ICASSP 2020).  
-[code](https://github.com/tongxyh/ImageCompression_VariableRate)
+[2] ["Variable Bitrate Image Compression with Quality Scaling Factors"](https://ieeexplore.ieee.org/abstract/document/9053885/) (ICASSP 2020).  [code](https://github.com/tongxyh/ImageCompression_VariableRate)
 
-<div id="refer-anchor-3"></div>
-[3] ["Variable Rate Deep Image Compression with Modulated Autoencoders"](https://ieeexplore.ieee.org/document/8977394) (IEEE SPL 2020)  
-[code](https://github.com/FireFYF/modulatedautoencoder)
+[3] ["Variable Rate Deep Image Compression with Modulated Autoencoders"](https://ieeexplore.ieee.org/document/8977394) (IEEE SPL 2020)  [code](https://github.com/FireFYF/modulatedautoencoder)
 
-<div id="refer-anchor-4"></div>
-[4] ["Slimmable Compressive Autoencoders for Practical Neural Image Compression"](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Slimmable_Compressive_Autoencoders_for_Practical_Neural_Image_Compression_CVPR_2021_paper.html) (CVPR 2021)  
-[code](https://github.com/FireFYF/SlimCAE)
+[4] ["Slimmable Compressive Autoencoders for Practical Neural Image Compression"](https://openaccess.thecvf.com/content/CVPR2021/html/Yang_Slimmable_Compressive_Autoencoders_for_Practical_Neural_Image_Compression_CVPR_2021_paper.html) (CVPR 2021)  [code](https://github.com/FireFYF/SlimCAE)
 
 # Related work
 >[Sun Z, Tan Z, Sun X, et al. Interpolation variable rate image compression[C]//Proceedings of the 29th ACM International Conference on Multimedia. 2021: 5574-5582.](https://dl.acm.org/doi/abs/10.1145/3474085.3475698)
 >
->This work can be regarded as the feature modulation version of GainVAE. It can be easily implemented based on this repo.
+>This work can be regarded as the feature modulation version of GainVAE and can be easily implemented based on this repo.
 
 # Contact
 Feel free to contact me if there is any question about the code or to discuss any problems with image and video compression. (mxh_wine@qq.com)
