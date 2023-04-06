@@ -1,0 +1,23 @@
+# Aggregate rate-distortion data for Gained Scale Hyperprior Model on kodak.
+# The first column contains bits per pixel (bpp) values.
+# The second column contains PSNR/sRGB/R'G'B' values.
+
+Results From my Gained Scale Hyperprior Model
+0.826541	34.86472
+0.694397	34.19032
+0.591220	33.46886
+0.429362	31.61766
+0.303484	30.02614
+0.231951	29.0583
+0.112725	26.71143
+0.051361	24.25162
+
+Results From Github(https://github.com/tensorflow/compression/blob/master/results/image_compression/kodak/PSNR_sRGB_RGB/balle-2018-iclr-opt-mse.txt)
+0.115239, 27.106351
+0.185698, 28.679134
+0.301804, 30.616753
+0.468972, 32.554935
+0.686378, 34.580960
+0.966864, 36.720366
+1.307441, 38.807960
+1.727503, 40.794920
