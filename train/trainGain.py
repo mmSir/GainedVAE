@@ -13,15 +13,12 @@ from torchvision import transforms
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
 
-
-
 # pylint: disable=E0611,E0401
-from compressai.models.gain import GainedMSHyperprior, FeatureGainedMSHyperprior
+from compressai.models.gain import GainedMSHyperprior
 from compressai.datasets import ImageFolder
 from compressai.zoo import models
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-
 
 class AverageMeter:
     """Compute running average."""
